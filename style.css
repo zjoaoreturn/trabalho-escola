@@ -3,11 +3,270 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'robot';
+    src: url(fonts/Robota-NonCommercial.otf);
+    font-weight: 100;
+}
+
+:root{
+    --cor1: #A4FEFF;
+    --cor2: #C18DDB; 
+    --cor3: #031136;
+
+    --font1: 'robot', helvetica, serif;
+    --font2: arial, helvetica, sans-serif; 
+}
+
+/*  Menu / SideBar  */
+
 header{
-    background-image: url(images/pexels-jessbaileydesign-788946.jpg);
-    background-position: center;
-    background-size: 100%;
-    height: 60vh;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(-45deg, #A4FEFF 50%, #C18DDB, #031136 );
+    height: 65px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+#menu-bar{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0px 3px 6px #c18ddbd2;
+    z-index: 99;
+}
+
+#logo{
+    font-size: 3em;
+    font-family: var(--font1);
+    align-items: center;
+    padding-left: 100px;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.676);
+}
+
+#link{
+    padding-left: 150px;
+}
+
+.links{
+    padding-left: 200px;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: var(--font1);
+    text-shadow: 0px 0.8px 2px black;
+    margin: 0px;
+}
+
+.links:hover{
+    color: var(--cor2);
+    font-size: 2em;
+    transition: 2s ease-in-out;
     
 }
+
+/*  Imagem  */
+
+main{
+    background-image: linear-gradient(-45deg, #20244d, #031136, #20244d); 
+}
+
+#container-img{
+    margin-top: 100px;
+    position: absolute;
+    left: 200px;
+}
+
+#img{
+    margin: auto;
+    background-image: url(images/imagem\ cllr2.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 15px 20px #1643c1;
+}
+
+/*  Conteudo  */
+
+#titulo-conteudo{
+    color: var(--cor2);
+    font-family: var(--font1);
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 10px;
+    text-shadow: 0px 2px 3px black;
+}
+
+#conteudo-externo{
+    background-color: #03174b ;
+    position: absolute;
+    top: 250px ;
+    left: 1150px;
+    text-align: justify;
+    width: 600px;
+    height: 450px;
+    box-shadow: 0px 15px 20px #1643c1;
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+#conteudo-interno{
+    font-size: 1.5em;
+    text-align: justify;
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+    color: white;
+    text-indent: 20px;
+    text-shadow: 0px 2px 3px black;
+}
+
+.text-destaque{
+    color: var(--cor2);
+}
+
+/*  Conteudo 2 ( Sobre )*/
+
+#titulo-conteudo2{
+    color: var(--cor2);
+    font-family: var(--font1);
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 820px;
+    text-shadow: 0px 2px 3px var(--cor2);
+}
+
+.conteudo-sobre-externo{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 180px;
+    background-color: #03174b;
+    text-align: justify;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0px 15px 20px #1643c1;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.conteudo-sobre-interno{
+    padding: 20px;
+    color: white;
+    text-indent: 20px;
+    font-size: 1.4em;
+    text-shadow: 0px 2px 3px black;
+}
+
+.titulo-sobre{
+    color: var(--cor2);
+    font-family: var(--font1);
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0px 2px 3px black;
+}
+
+#sobre{
+    animation: animtxt 10s ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+@keyframes animtxt {
+    from{
+        opacity: 0;
+        translate: 0 50vh;
+    }
+    to{
+        opacity: 1;
+        translate: 0 0 ;
+    }
+}
+
+/*  Comentarios */
+
+#titulo-conteudo3{
+    color: var(--cor2);
+    font-family: var(--font1);
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 70px;
+    text-shadow: 0px 2px 3px var(--cor2);
+}
+
+#nome-pessoa{
+    color: var(--cor2);
+}
+
+.comentario{
+    text-align: justify;
+    color: white;
+    background-color: #03174b;
+    text-align: justify;
+    width: 250px;
+    height: 100px;
+    box-shadow: 0px 15px 20px #1643c1;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#comentarios{
+    position: relative;
+}
+
+#comentario1{
+    padding-left: 450px;
+}
+
+#comentario2{
+    position: absolute;
+    top: 225px;
+    left: 1260px;
+}
+
+#comentario3{
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+
+#comentario4{
+    position: absolute;
+    top: 550px;
+    left: 350px;
+}
+
+#comentario5{
+    position: absolute;
+    top: 550px;
+    left: 1270px;
+}
+
+#img2{
+    background-image: url(images/imagem\ cllr\ de\ costas.jpg);
+    margin: auto;
+    background-size: cover;
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 15px 20px #1643c1;
+    display: flex;
+    
+}
+
+/*  footer  */
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor3);
+    font-size: 1.55em;
+    font-family: var(--font1);
+    margin-top: 40px;
+    width: auto;
+    background-image: linear-gradient(-45deg, #A4FEFF 50%, #C18DDB, #031136 );
+}
+    
