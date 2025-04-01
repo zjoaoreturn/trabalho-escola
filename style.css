@@ -60,7 +60,7 @@ header{
 .links:hover{
     color: var(--cor2);
     font-size: 2em;
-    transition: 2s ease-in-out;
+    transition: 1.5s ease-in-out;
     
 }
 
@@ -270,3 +270,493 @@ main{
     background-image: linear-gradient(-45deg, #A4FEFF 50%, #C18DDB, #031136 );
 }
     
+
+/*  Media screen 1780px  */
+
+@media screen and (max-width: 1720px) {
+
+    /*  Menu / SideBar  */
+
+    header{
+        height: 50px;
+    }
+
+    #logo{
+        font-size: 2.4em;
+        padding-left: 80px;
+    }
+
+    #link{
+        padding-left: 100px;
+    }
+
+    .links{
+        padding-left: 150px;
+        font-size: 1.5em;
+    }
+
+    .links:hover{
+        font-size: 1.8em;
+    }
+
+    /*  Imagem  */
+
+    #container-img{
+        margin-top: 60px;
+        position: absolute;
+        left: 100px;
+    }
+
+    #img{
+        height: 550px;
+        width: 550px;
+    }
+
+    /*  Conteudo  */
+
+    #titulo-conteudo{
+        font-size: 2em;
+    }
+
+    #conteudo-externo{
+        position: absolute;
+        top: 150px;
+        left: 800px;
+    }
+
+    /*  Conteudo 2 ( Sobre )*/
+
+    #titulo-conteudo2{
+        font-size: 2em;
+        padding-top: 680px;
+    }
+
+    .conteudo-sobre-externo{
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+
+    /*  Comentarios  */
+
+    #titulo-conteudo3{
+        font-size: 2em;
+        padding-top: 80px;
+    }
+
+    #comentarios{
+        position: relative;
+    }
+    
+    #comentario1{
+        padding-left: 350px;
+    }
+    
+    #comentario2{
+        position: absolute;
+        top: 200px;
+        left: 1100px;
+    }
+    
+    #comentario3{
+        position: absolute;
+        top: 250px;
+        left: 150px;
+    }
+    
+    #comentario4{
+        position: absolute;
+        top: 550px;
+        left: 200px;
+    }
+    
+    #comentario5{
+        position: absolute;
+        top: 550px;
+        left: 1080px;
+    }
+    
+    #img2{
+        background-image: url(images/imagem\ cllr\ de\ costas.jpg);
+        margin: auto;
+        background-size: cover;
+        height: 600px;
+        width: 600px;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        box-shadow: 0px 15px 20px #1643c1;
+        display: flex;
+        
+    }
+}
+
+
+/*  Media screen 1420px  */
+
+@media screen and (max-width: 1420px) {
+
+    /*  Menu / SideBar  */
+
+    header{
+        height: 45px;
+    }
+
+    /*  Conteudo  */
+
+    #titulo-conteudo{
+        font-size: 1.8em;
+    }
+
+    #conteudo-externo{
+        position: absolute;
+        top: 160px;
+        left: 820px;
+
+        width: 450px;
+        height: 400px;
+    }
+
+    #conteudo-interno{
+        font-size: 1.3em;
+        width: 400px;
+        height: 400px;
+    }
+
+    /*  Conteudo 2 ( Sobre )*/
+
+    #titulo-conteudo2{
+        font-size: 1.8em;
+        padding-top: 680px;
+    }
+
+    .conteudo-sobre-externo{
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+
+    /*  Comentarios  */
+
+    #titulo-conteudo3{
+        font-size: 1.8em;
+        padding-top: 80px;
+    }
+
+    #comentarios{
+        position: relative;
+    }
+    
+    #comentario1{
+        padding-left: 350px;
+    }
+    
+    #comentario2{
+        position: absolute;
+        top: 200px;
+        left: 1000px;
+    }
+    
+    #comentario3{
+        position: absolute;
+        top: 250px;
+        left: 110px;
+    }
+    
+    #comentario4{
+        position: absolute;
+        top: 550px;
+        left: 140px;
+    }
+    
+    #comentario5{
+        position: absolute;
+        top: 550px;
+        left: 1000px;
+    }
+}
+
+
+/*  Media screen 1024px  */
+
+@media screen and (max-width: 1024px){
+
+    /*  Menu / SideBar  */
+
+    header{
+        height: 50px;
+    }
+
+    #logo{
+        font-size: 2.3em;
+        padding-left: 60px;
+    }
+
+    #link{
+        padding-left: 40px;
+    }
+
+    .links{
+        padding-left: 80px;
+        font-size: 1.5em;
+    }
+
+    .links:hover{
+        font-size: 1.6em;
+    }
+
+    /*  Imagem  */
+
+    #container-img{
+        margin-top: 40px;
+        position: absolute;
+        left: 50px;
+    }
+
+    #img{
+        height: 450px;
+        width: 450px;
+    }
+
+    /*  Conteudo  */
+
+    #titulo-conteudo{
+        font-size: 1.8em;
+    }
+
+    #conteudo-externo{
+        position: absolute;
+        top: 150px;
+        left: 525px;
+    }
+
+    /*  Conteudo 2 ( Sobre )*/
+
+    #titulo-conteudo2{
+        font-size: 2em;
+        padding-top: 580px;
+    }
+
+    .conteudo-sobre-externo{
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .titulo-sobre{
+        font-size: 1.5em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
+    .conteudo-sobre-interno{
+        padding: 10px;
+        font-size: 1.3em;
+    }
+
+    /*  Comentarios  */
+
+    #titulo-conteudo3{
+        font-size: 2em;
+        padding-top: 80px;
+    }
+
+    #comentarios{
+        position: relative;
+    }
+    
+    #comentario1{
+        padding-left: 100px;
+    }
+    
+    #comentario2{
+        position: absolute;
+        top: 200px;
+        left: 720px;
+    }
+    
+    #comentario3{
+        position: absolute;
+        top: 250px;
+        left: 10px;
+    }
+    
+    #comentario4{
+        position: absolute;
+        top: 450px;
+        left: 50px;
+    }
+    
+    #comentario5{
+        position: absolute;
+        top: 550px;
+        left: 700px;
+    }
+    
+    #img2{
+        background-image: url(images/imagem\ cllr\ de\ costas.jpg);
+        margin: auto;
+        background-size: cover;
+        height: 600px;
+        width: 600px;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        box-shadow: 0px 15px 20px #1643c1;
+        display: flex;
+        
+    }
+}
+
+/*  Media screen 1024px  */
+
+@media screen and (max-width: 480px){
+    header{
+        height: 40px;
+    }
+
+    #logo{
+        font-size: 1.3em;
+        padding-left: 10px;
+    }
+
+    #link{
+        padding-left: 10px;
+    }
+    
+    .links{
+        padding-left: 5px;
+        font-size: 0.8em;
+    }
+
+    .links:hover{
+        font-size: 0.8em;
+    }
+
+    /*  Imagem  */
+
+    #container-img{
+        margin-top: 30px;
+        position: absolute;
+        left: 40px;
+    }
+
+    #img{
+        margin: auto;
+        background-image: url(images/imagem\ cllr2.jpg);
+        background-size: cover;
+        height: 320px;
+        width: 320px;
+    }   
+
+    /*  Conteudo  */
+
+    #titulo-conteudo{
+        font-size: 1.8em;
+        padding-top: 10px;
+        
+    }
+
+    #conteudo-externo{
+        display: block;
+        position: absolute;
+        top: 430px ;
+        left: 20px;
+
+        width: 360px;
+        height: 420px;
+    }
+
+    #conteudo-interno{
+        font-size: 1.2em;
+        width: 340px;
+        height: 340px;
+        padding: 10px;
+    }
+
+    /*  Conteudo 2 ( Sobre )*/
+
+    #titulo-conteudo2{
+        font-size: 1.8em;
+        padding-top: 860px;
+    }
+
+    .conteudo-sobre-externo{
+        margin-top: 30px;
+        margin-left: 40px;
+        
+        width: 300px;
+        height: 250px;
+        
+    }
+
+    .conteudo-sobre-interno{
+        padding: 20px;
+        
+        text-indent: 20px;
+        font-size: 1.2em;
+        text-shadow: 0px 2px 3px black;
+    }
+
+    .titulo-sobre{
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    /*  Comentarios */
+
+    #titulo-conteudo3{
+        font-size: 1.8em;
+        padding-top: 70px;
+    }
+
+    .comentario{
+        width: 250px;
+        height: 100px;
+        padding: 10px;
+    }
+
+    #comentarios{
+        position: relative;
+    }
+    
+    #comentario1{
+        position: absolute;
+        top: 480px;
+        left: -50px;
+    }
+
+    #comentario2{
+        position: absolute;
+        top: 680px;
+        left: 50px;
+    }
+
+    #comentario3{
+        position: absolute;
+        top: 880px;
+        left: 50px;
+    }
+
+    #comentario4{
+        position: absolute;
+        top: 1080px;
+        left: 50px;
+    }
+
+    #comentario5{
+        position: absolute;
+        top: 1280px;
+        left: 50px;
+    }
+
+    #height{
+        height: 1100px;
+    }
+
+    #img2{
+        margin-top: 50px;
+        height: 360px;
+        width: 360px;
+    }
+}
+
