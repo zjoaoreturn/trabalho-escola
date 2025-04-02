@@ -608,7 +608,7 @@ main{
 
 /*  Media screen 1024px  */
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 720px){
     header{
         height: 40px;
     }
